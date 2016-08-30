@@ -8,4 +8,7 @@ wget https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu1604-3.2.9.tgz
 tar -xvf mongodb-linux-x86_64-ubuntu1604-3.2.9.tgz
 cp -R mongodb-linux-x86_64-ubuntu1604-3.2.9/bin ../
 ```
-
+## Oturum Servisi Olarak Arka Planda Çalıştırılması
+```bash
+mongod --config mongod.conf 
+```
